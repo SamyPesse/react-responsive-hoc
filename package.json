@@ -1,6 +1,6 @@
 {
   "name": "react-responsive-hoc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "HOC to make react-responsive work with SSR",
   "main": "./lib/index.js",
   "scripts": {
