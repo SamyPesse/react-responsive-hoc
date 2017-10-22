@@ -4,5 +4,5 @@ node_js:
 
 # Test and lint
 script:
-  - npm run test
+  - npm run flow
   - npm run lint
