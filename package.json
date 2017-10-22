@@ -1,0 +1,48 @@
+{
+  "name": "react-responsive-hoc",
+  "version": "0.0.0",
+  "description": "HOC to make react-responsive work with SSR",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "babel --out-dir ./lib ./src",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamyPesse/react-responsive-hoc.git"
+  },
+  "keywords": [
+    "react-responsive",
+    "mediaquery",
+    "ssr"
+  ],
+  "author": "Samy Pesse <samypesse@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SamyPesse/react-responsive-hoc/issues"
+  },
+  "homepage": "https://github.com/SamyPesse/react-responsive-hoc#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.7.2",
+    "eslint-config-gitbook": "^2.0.3",
+    "flow-bin": "^0.55.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2 || ^16.0.0",
+    "react-dom": "^15.4.2 || ^16.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react-responsive": "^3.0"
+  }
+}
